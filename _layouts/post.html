@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<article class="post">
+
+  <header class="post-header">
+    <p class="post-date">
+      {{ page.date | date: "%d/%m/%Y" }}
+    </p>
+
+    <h1>{{ page.title }}</h1>
+
+    {% if page.subtitle %}
+      <p class="post-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </header>
+
+  {% if page.image %}
+    <img
+      class="post-image"
+      src="{{ page.image | relative_url }}"
+      alt="{{ page.title }}"
+    >
+  {% endif %}
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  {% if page.substack %}
+    <div class="substack-box">
+      <p>
+        Questo articolo è disponibile anche su Substack.
+      </p>
+
+      <a href="{{ page.substack }}" target="_blank">
+        Leggi su Substack →
+      </a>
+    </div>
+  {% endif %}
+
+</article>
