@@ -1,10 +1,10 @@
+ ---
 layout: post
-title: "Che cosa fa davvero un’IA generativa?"
+title: Che cosa fa davvero un’IA generativa?
 subtitle: Cosa succede davvero quando fai una domanda all’IA?
 date: 2026-09-10
 image: /images/2-buon-compleanno.png
-
-substack: [https://pianopianoai.substack.com/p/...](https://pianopianoai.substack.com/p/che-cosa-fa-davvero-unia-generativa)
+substack: https://pianopianoai.substack.com/p/che-cosa-fa-davvero-unia-generativa
 ---
 
 # **Che cosa fa davvero un’IA generativa?**
