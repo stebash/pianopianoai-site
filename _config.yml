@@ -1,0 +1,11 @@
+title: PianopianoAI
+description: Capire l'intelligenza artificiale, piano piano.
+url: "https://pianopianoai.it"
+baseurl: ""
+
+markdown: kramdown
+permalink: /articoli/:title/
+
+collections:
+  posts:
+    output: true
