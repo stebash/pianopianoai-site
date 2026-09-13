@@ -6,13 +6,8 @@ date: 2026-09-10
 image: /images/2-buon-compleanno.png
 substack: https://pianopianoai.substack.com/p/che-cosa-fa-davvero-unia-generativa
 ---
-
-# **Che cosa fa davvero un’IA generativa?**
-
-### Cosa succede davvero quando fai una domanda all’IA?
-
 [Stefano Basso](https://substack.com/@stefanobasso)  
-set 09, 2026  
+set 10, 2026  
 🎧 **Prima di iniziare**  
 Elisa — *Eppure sentire*
 
