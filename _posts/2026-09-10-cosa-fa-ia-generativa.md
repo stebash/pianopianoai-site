@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 title: Che cosa fa davvero un’IA generativa?
 subtitle: Cosa succede davvero quando fai una domanda all’IA?
