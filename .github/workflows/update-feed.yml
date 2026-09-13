@@ -16,13 +16,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Scarica feed PianopianoAI
+        uses: Promptly-Technologies-LLC/rss-fetch-action@v2
         with:
-          python-version: "3.x"
-
-      - name: Aggiorna feed
-        run: python update_feed.py
+          feed_url: https://pianopianoai.substack.com/feed
+          file_path: ./articles.json
+          parser_options: '{"useISODateFormat": true}'
 
       - name: Salva aggiornamenti
         run: |
