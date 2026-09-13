@@ -1,7 +1,8 @@
 title: PianopianoAI
 description: Capire l'intelligenza artificiale, piano piano.
-url: "https://pianopianoai.it"
-baseurl: ""
+
+url: "https://stebash.github.io"
+baseurl: "/pianopianoai-site"
 
 markdown: kramdown
 permalink: /articoli/:title/
