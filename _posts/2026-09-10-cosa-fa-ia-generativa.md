@@ -17,7 +17,6 @@ Dopo pochi secondi compare qualcosa del genere:
 
 Cinquant’anni e ancora tante porte da aprire. Appena ritrovi le chiavi.
 
-![][image1]
 
 Battute a parte la domanda interessante è un’altra: **da dove arriva quella frase?**
 
