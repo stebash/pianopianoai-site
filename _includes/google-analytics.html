@@ -1,16 +1,59 @@
 {% if site.google_analytics %}
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-
 <script>
-  window.dataLayer = window.dataLayer || [];
+(function () {
+  const GA_ID = "{{ site.google_analytics }}";
+  const CONSENT_KEY = "pianopianoai_analytics_consent";
 
-  function gtag(){
-    dataLayer.push(arguments);
-  }
+  window.pianopianoLoadAnalytics = function () {
+    if (document.getElementById("google-analytics-script")) {
+      return;
+    }
 
-  gtag('js', new Date());
+    const script = document.createElement("script");
+    script.id = "google-analytics-script";
+    script.async = true;
+    script.src = "https://www.googletagmanager.com/gtag/js?id=" + GA_ID;
+    document.head.appendChild(script);
 
-  gtag('config', '{{ site.google_analytics }}');
+    window.dataLayer = window.dataLayer || [];
+
+    window.gtag = function () {
+      dataLayer.push(arguments);
+    };
+
+    gtag("js", new Date());
+    gtag("config", GA_ID);
+  };
+
+  window.pianopianoSetAnalyticsConsent = function (choice) {
+    localStorage.setItem(CONSENT_KEY, choice);
+
+    if (choice === "granted") {
+      window.pianopianoLoadAnalytics();
+    }
+
+    const banner = document.getElementById("cookie-banner");
+
+    if (banner) {
+      banner.hidden = true;
+    }
+  };
+
+  window.pianopianoResetAnalyticsConsent = function () {
+    localStorage.removeItem(CONSENT_KEY);
+    location.reload();
+  };
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const consent = localStorage.getItem(CONSENT_KEY);
+    const banner = document.getElementById("cookie-banner");
+
+    if (consent === "granted") {
+      window.pianopianoLoadAnalytics();
+    } else if (consent === null && banner) {
+      banner.hidden = false;
+    }
+  });
+})();
 </script>
 {% endif %}
