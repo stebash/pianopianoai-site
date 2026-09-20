@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
+
   {% include google-analytics.html %}
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -19,6 +21,8 @@
 </head>
 
 <body>
+
+{% include cookie-banner.html %}
 
 <header class="site-header">
   <div class="container">
@@ -40,6 +44,14 @@
 <footer class="site-footer">
   <div class="container">
     <p>PianopianoAI — Intelligenza artificiale, spiegata piano piano.</p>
+
+    <p class="footer-links">
+      <a href="{{ '/privacy/' | relative_url }}">Privacy e cookie</a>
+      ·
+      <a href="#" onclick="pianopianoResetAnalyticsConsent(); return false;">
+        Preferenze cookie
+      </a>
+    </p>
   </div>
 </footer>
 
