@@ -1,0 +1,38 @@
+<div
+  id="cookie-banner"
+  class="cookie-banner"
+  role="dialog"
+  aria-label="Preferenze cookie"
+  aria-live="polite"
+  hidden
+>
+  <div class="cookie-banner-content">
+
+    <p>
+      <strong>Cookie e privacy</strong><br>
+      PianopianoAI utilizza Google Analytics per capire come viene utilizzato
+      il sito e migliorarlo. Analytics viene attivato solo se scegli di
+      accettare.
+      <a href="{{ '/privacy/' | relative_url }}">Scopri di più</a>.
+    </p>
+
+    <div class="cookie-buttons">
+      <button
+        type="button"
+        class="cookie-button cookie-reject"
+        onclick="pianopianoSetAnalyticsConsent('denied')"
+      >
+        Rifiuta
+      </button>
+
+      <button
+        type="button"
+        class="cookie-button cookie-accept"
+        onclick="pianopianoSetAnalyticsConsent('granted')"
+      >
+        Accetta
+      </button>
+    </div>
+
+  </div>
+</div>
