@@ -1,10 +1,9 @@
 ---
-
 layout: default
 title: Privacy e Cookie
 description: Informativa sulla privacy e sull'uso dei cookie del sito PianopianoAI.
 permalink: /privacy/
---------------------
+---
 
 # Privacy e Cookie
 
