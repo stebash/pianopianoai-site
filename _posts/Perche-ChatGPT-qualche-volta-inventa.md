@@ -3,7 +3,7 @@ layout: post
 title: "Perché ChatGPT qualche volta inventa"
 subtitle: "Puoi spiegarti benissimo e ricevere comunque una risposta sbagliata."
 date: 2026-09-23
-image: /images/5-perche-chatgpt-ogni-tanto-inventa.jpg
+image: /images/5-perche-chatgpt-ogni-tanto-inventa.png
 substack: https://pianopianoai.substack.com/p/perche-chatgpt-qualche-volta-inventa
 ---
 🎧 **Prima di iniziare**  
