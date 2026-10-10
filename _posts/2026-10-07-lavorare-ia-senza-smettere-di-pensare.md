@@ -26,7 +26,7 @@ Ed è qui che usare bene questi strumenti diventa un po’ più interessante che
 
 ## Dal modello migliore al modo migliore di usarlo
 
-Nell’[articolo precedente](https://pianopianoai.it/articoli/qual-e-lintelligenza-artificiale/) abbiamo visto quanto sia difficile rispondere alla domanda «qual è l’intelligenza artificiale migliore?».
+Nell’[articolo precedente]([https://pianopianoai.it/articoli/lintelligenza-artificiale-migliore/)] abbiamo visto quanto sia difficile rispondere alla domanda «qual è l’intelligenza artificiale migliore?».
 
 ChatGPT può funzionare meglio in un certo compito, Claude in un altro, Gemini in un altro ancora. I modelli cambiano, vengono aggiornati e spesso le differenze che vediamo nelle classifiche contano meno di quanto immaginiamo nell’uso quotidiano.
 
@@ -42,7 +42,7 @@ Tecnicamente, in tutti questi casi stiamo usando lo stesso strumento. Ma non sti
 
 ## Il rischio non è soltanto che l’IA sbagli
 
-Nel [quarto articolo](https://pianopianoai.it/articoli/perche-chatgpt-qualche-volta-inventa/) abbiamo parlato delle **allucinazioni**: un modello può produrre informazioni false con la stessa sicurezza con cui produce quelle corrette.
+Nel [quarto articolo](https://pianopianoai.it/articoli/Perche-ChatGPT-qualche-volta-inventa/) abbiamo parlato delle **allucinazioni**: un modello può produrre informazioni false con la stessa sicurezza con cui produce quelle corrette.
 
 Quello, però, è il problema più facile da vedere.
 
