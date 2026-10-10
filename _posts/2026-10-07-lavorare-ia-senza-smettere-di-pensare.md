@@ -26,7 +26,7 @@ Ed è qui che usare bene questi strumenti diventa un po’ più interessante che
 
 ## Dal modello migliore al modo migliore di usarlo
 
-Nell’[articolo precedente]([https://pianopianoai.it/articoli/lintelligenza-artificiale-migliore/)] abbiamo visto quanto sia difficile rispondere alla domanda «qual è l’intelligenza artificiale migliore?».
+Nell’[articolo precedente]([https://pianopianoai.it/articoli/lintelligenza-artificiale-migliore/) abbiamo visto quanto sia difficile rispondere alla domanda «qual è l’intelligenza artificiale migliore?».
 
 ChatGPT può funzionare meglio in un certo compito, Claude in un altro, Gemini in un altro ancora. I modelli cambiano, vengono aggiornati e spesso le differenze che vediamo nelle classifiche contano meno di quanto immaginiamo nell’uso quotidiano.
 
