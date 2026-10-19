@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Lavorare con l’IA senza smettere di pensare"
+title: "Chi prende appunti?"
 subtitle: "Se ChatGPT può scrivere, riassumere e proporre idee al posto nostro, quale parte del lavoro conviene continuare a fare da soli?"
 date: 2026-10-14 08:00:00 +0200
 image: /images/8-riunione-con-ia.png
