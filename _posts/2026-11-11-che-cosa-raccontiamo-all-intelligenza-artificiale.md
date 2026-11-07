@@ -4,7 +4,7 @@ title: "Che cosa raccontiamo all'intelligenza artificiale?"
 subtitle: "Ogni volta che chiediamo aiuto a un chatbot gli forniamo delle informazioni. Dove finiscono, come vengono utilizzate e quanto possiamo controllarle?"
 date: 2026-11-11 08:30:00 +0200
 image: /images/12-privacy-gdpr.png
-substack:https://pianopianoai.substack.com/p/che-cosa-raccontiamo-allintelligenza
+substack: https://pianopianoai.substack.com/p/che-cosa-raccontiamo-allintelligenza
 ---
 
 🎧 **Prima di iniziare**  
