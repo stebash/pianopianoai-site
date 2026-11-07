@@ -128,7 +128,7 @@ Il punto è che **la qualità di una richiesta dipende dalla pertinenza delle in
 
 ## E se l'intelligenza artificiale potesse accedere direttamente ai nostri dati?
 
-Nell'ultimo articolo abbiamo parlato degli [agenti AI](https://pianopianoai.it/articoli/agenti-ai/), sistemi che possono utilizzare strumenti ed eseguire operazioni per raggiungere un obiettivo.
+Nell'[ultimo articolo](https://pianopianoai.it/articoli/agenti-ai/) abbiamo parlato degli agenti AI, sistemi che possono utilizzare strumenti ed eseguire operazioni per raggiungere un obiettivo.
 
 C'è un aspetto che merita di essere approfondito.
 
