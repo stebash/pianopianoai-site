@@ -3,7 +3,7 @@ layout: post
 title: "Automatizzare senza complicarsi la vita"
 subtitle: "Prima di chiedere a un agente AI di lavorare al posto nostro, vale la pena capire quali attività possono già essere affidate a un'automazione molto più semplice."
 date: 2026-11-18 08:30:00 +0100
-image: /images/13-automatizzare-senza-complicarsi-la-vita.png
+image: /images/13-automatizzare-senza-complicarsi-la-vita.png 
 substack: "https://pianopianoai.substack.com/p/automatizzare-senza-complicarsi-la"
 ---
 
